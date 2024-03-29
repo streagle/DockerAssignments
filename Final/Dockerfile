@@ -1,6 +1,6 @@
 FROM node:12
 
-WORKDIR /app
+WORKDIR /src/.
 
 COPY startbootstrap-business-casual-gh-pages ./
 
