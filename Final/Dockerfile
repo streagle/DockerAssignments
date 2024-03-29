@@ -1,6 +1,6 @@
 FROM node:12
 
-WORKDIR C:\Users\ryrea\MyCode\ClassPulledCode\DockerAssignments
+WORKDIR /app
 
 COPY package*.json ./
 
