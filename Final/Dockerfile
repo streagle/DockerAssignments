@@ -2,7 +2,7 @@ FROM node:12
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY startbootstrap-business-casual-gh-pages ./
 
 RUN npm install
 
